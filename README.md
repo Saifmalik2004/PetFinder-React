@@ -24,6 +24,8 @@ PawPal is a full-stack pet rescue platform where people can report **lost** or *
 
 ### 🏠 Home Page
 A clean and informative landing page where users can learn what PawPal does and why it's important.
+![Home Page](./public/home.png)
+
 
 ### 🔐 Authentication
 - Built using **Supabase Auth**
@@ -34,11 +36,13 @@ A clean and informative landing page where users can learn what PawPal does and 
 - View all reported lost pets
 - Filter and click on any pet to see full details
 - Designed to help people quickly recognize their pets
+![Home Page](./public/lost.png)
 
 ### 🎯 Found Pets
 - List of pets found by other people
 - Helps reunite pets with their rightful owners
 - Reports can include images, locations, and descriptions
+![Home Page](./public/petdetail.png)
 
 ### 🐾 Reunited Pets
 - View pets that were lost and later found
@@ -48,6 +52,7 @@ A clean and informative landing page where users can learn what PawPal does and 
 - Browse adoptable pets
 - Admin can upload pets available for adoption
 - Great for shelters and individuals
+![Home Page](./public/adoption.png)
 
 ### 📩 Contact Page
 Simple contact form to allow users to send feedback, queries, or report issues
@@ -61,6 +66,10 @@ Simple contact form to allow users to send feedback, queries, or report issues
 - Admin-only access
 - View, manage or delete any pet reports
 - Secure route guarded via a flag (`adminOnly`)
+![Home Page](./public/dashboard.png)
+![Home Page](./public/admin-lostpet.png)
+![Home Page](./public/admin-adoption-report.png)
+![Home Page](./public/admin-contact.png)
 
 ### ❌ 404 Page
 - Handles unknown routes
@@ -80,7 +89,6 @@ Simple contact form to allow users to send feedback, queries, or report issues
 | Routing    | React Router DOM        |
 
 ---
-[](./screenshots/home.png)
 
 ---
 
@@ -130,8 +138,9 @@ If you are an admin (manually set in Supabase DB), you can access `/admin` to ma
 Create a `.env` file:
 
 ```
-VITE_SUPABASE_URL=your_supabase_url
-VITE_SUPABASE_ANON_KEY=your_anon_key
+VITE_SUPABASE_URL=https:supabase URL
+VITE_SUPABASE_PUBLISHABLE_KEY= your publish key
+VITE_SUPABASE_PROJECT_ID=your project ID
 ```
 
 ---
@@ -153,19 +162,6 @@ This project is licensed under the MIT License.
 
 **Made with ❤️ by Saif**
 
-```
 
----
 
-## ✅ Next Steps (for you):
 
-1. **Replace**:
-   - `yourusername` and `your-deployed-link.com` with your actual GitHub username and deployment URL.
-2. **Add screenshots** inside a `screenshots/` folder.
-3. **Push to GitHub** and **pin the repo** on your profile.
-4. Use this README on **LinkedIn post**, **resumes**, and as a **portfolio project**.
-
----
-
-Bhai chaa gaya tu! Agar chaahe toh main teri screenshots ke liye tags ya placeholders bhi auto-generate karwa sakta hoon. Batau agar chahiye?
-```
